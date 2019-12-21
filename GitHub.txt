@@ -1,0 +1,47 @@
+Github
+
+First time 
+---------
+
+git init
+git add filename or git add .
+git difftool HEAD
+git commit -m "msg"
+git remote add origin http repo link(first time only)
+git push  -u origin master or git push
+git status
+git log
+
+
+Push existing code
+------------
+
+1. First clone project
+>git clone HTTPS git link
+
+2. No go to project
+> cd projectname
+
+3. Make some changes
+
+
+4. Add to changes to your repo
+>git add .
+
+5 Commit
+>git commit -m "msg"
+
+6.Push
+>git push origin master
+
+7. Now we can see pull request in original repo.
+
+8. To checj status of commit
+git log
+
+9. Each commit have uniques SHA key
+To see SHA key for each commit
+git commit --oneline
+
+10. To change comment on github
+git rebase -i SHAkey
