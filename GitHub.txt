@@ -45,3 +45,10 @@ git commit --oneline
 
 10. To change comment on github
 git rebase -i SHAkey
+
+11. During from origin
+press "i"
+write your merge message
+press "esc"
+write ":wq"
+then press enter
